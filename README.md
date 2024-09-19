@@ -16,7 +16,7 @@
 -----------------------------------
 新增 [xip.v1.ax]() 匹配返回任意指定IP：
 
-> 不提供通配证书下载,需根本下方规则,使用[HTTP-01 质询](https://letsencrypt.org/docs/challenge-types/#http-01-challenge)自行申请
+> 不提供通配证书下载,需根据下方规则,使用[HTTP-01 质询](https://letsencrypt.org/docs/challenge-types/#http-01-challenge)自行申请
 
 |主机名/URL|IP地址|说明|
 |---|---|---|
