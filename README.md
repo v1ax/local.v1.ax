@@ -1,4 +1,3 @@
-# local.v1.ax
 ### 本项目可解决本机部署的web项目不方便进行https调试的问题
 
 因无法在 127.0.0.1 或 localhost部署CA证书,导致本地项目https访问困难
