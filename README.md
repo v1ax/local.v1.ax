@@ -6,16 +6,22 @@
 
   1.本域名 [local.v1.ax](https://tool.chinaz.com/dns/local.v1.ax)已永久指向 127.0.0.1 
   
-  2.[下载](https://v1.ax/local)cer_download目录下提供的证书和私钥tar包,解压并部署到项目中.
+  2.本仓库[cer_download]目录下提供的完整公私钥证书的zip包(pem)
   
-  3.使用 https://local.v1.ax 访问即可.
+  3.证书部署到自己的项目中使用 https://local.v1.ax 访问即可.
 
   > 证书有效期3个月,到期后自动更新
+
+  [证书 loca.v1.ax.zip](https://raw.githubusercontent.com/v1ax/local.v1.ax/refs/heads/main/cer_download/local.v1.ax.zip)
+  
+  [证书 *.xip.v1.ax.zip](https://raw.githubusercontent.com/v1ax/local.v1.ax/refs/heads/main/cer_download/xip.v1.ax.zip)
 
 -----------------------------------
 新增 [xip.v1.ax]() 匹配返回任意指定IP：
 
-> 不提供通配证书下载,需根据下方规则,使用[HTTP-01 质询](https://letsencrypt.org/docs/challenge-types/#http-01-challenge)自行申请
+> 本项目提供通配证书下载,你也可以根据下方规则,使用[HTTP-01 质询](https://letsencrypt.org/docs/challenge-types/#http-01-challenge)自行申请
+
+***注意:https访问时,推荐使用破折号分隔符***
 
 |主机名/URL|IP地址|说明|
 |---|---|---|
