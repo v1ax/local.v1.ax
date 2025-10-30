@@ -12,7 +12,7 @@
 
   > 证书有效期3个月,到期后自动更新
 
-  [证书 loca.v1.ax.zip](https://raw.githubusercontent.com/v1ax/local.v1.ax/refs/heads/main/cer_download/local.v1.ax.zip)
+  [证书 local.v1.ax.zip](https://raw.githubusercontent.com/v1ax/local.v1.ax/refs/heads/main/cer_download/local.v1.ax.zip)
   
   [证书 *.xip.v1.ax.zip](https://raw.githubusercontent.com/v1ax/local.v1.ax/refs/heads/main/cer_download/xip.v1.ax.zip)
 
